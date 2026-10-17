@@ -1,2 +1,2 @@
 # Mobile-App
-Yummy Restaurant Manaage system
+Yummy Restaurant Management system
