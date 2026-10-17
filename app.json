@@ -1,0 +1,48 @@
+{
+  "expo": {
+    "name": "Restaurant",
+    "slug": "Restaurant",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/Logo.png",
+    "backgroundColor": "#ffffff",
+    "scheme": "yummyrestaurant",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#D12E2E",
+        "foregroundImage": "./assets/Logo.png",
+        "backgroundImage": "./assets/Logo.png",
+        "monochromeImage": "./assets/Logo.png"
+      },
+      "predictiveBackGestureEnabled": false,
+      "package": "com.anonymous.YUMMYRestaurant"    
+    },
+    "web": {
+      "output": "static",
+      "favicon": "./assets/Logo.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/Logo.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff",
+          "dark": {
+            "backgroundColor": "#ffffff"
+          }
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    }
+  }
+}
